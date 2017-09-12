@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //===========================
 //ルーティング
-app.post('/', function(req, res) {
+app.get('/', function(req, res) {
     console.log("ok");
     // var commits = req.param('commits');
     // var commit_message = "";
